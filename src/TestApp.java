@@ -16,7 +16,7 @@ public class TestApp {
 		Dealer myDealer;
 
 		System.out.println("=========================================\n=========VEHICLE DELIVERY SYSTEM=========\n=========================================");
-		newCar = (Car)cf.buildVehicle();
+		newCar = cf.buildVehicle();
 		newVan = (Van)vf.buildVehicle();
 
 		do {
